@@ -18,7 +18,7 @@ class AddToy extends Component {
 	handleSubmit(event) {
 		event.preventDefault();
 		this.addToyService.sendData(this.state.toy);
-		this.props.history.push('/');
+		this.props.history.push('/index');
 	}
 
 	render() {
